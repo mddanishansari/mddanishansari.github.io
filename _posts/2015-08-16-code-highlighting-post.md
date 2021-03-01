@@ -15,6 +15,7 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
 
+CSS
 
 ```css
 #container {
@@ -23,6 +24,8 @@ To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
     width: 100%;
 }
 ```
+
+HTML
 
 ```html
 {% raw %}<nav class="pagination" role="navigation">
@@ -34,6 +37,29 @@ To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
     {% endif %}
 </nav><!-- /.pagination -->{% endraw %}
 ```
+
+JAVA
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+
+KOTLIN
+
+```kotlin
+fun main() {
+    println("Hello World!")
+}
+
+data class User(val name: String, val age: Int)
+```
+
+RUBY
 
 ```ruby
 module Jekyll
